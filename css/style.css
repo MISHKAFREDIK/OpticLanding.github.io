@@ -69,7 +69,7 @@ button:hover {
 /* ================ */
 
 /* =====AFTERHEADER===== */
-.afterHeader {  
+.afterHeader {
     background-image: url(../img/headerBackground.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +88,6 @@ button:hover {
 }
 
 .product {
-    height: 313.224px;
     color: #EFF1ED;
     font-variant-numeric: ordinal;
     font-family: Playfair Display;
@@ -99,13 +98,13 @@ button:hover {
 }
 
 .productMotto {
-    height: 104.408px;
     color: #EFF1ED;
     font-family: Inter;
     font-size: 40px;
     font-weight: 200;
     line-height: 52px;
 }
+
 /* ===================== */
 
 /* =====ABOUTUS===== */
@@ -275,6 +274,7 @@ h3 {
     width: 270px;
     height: 61px;
 }
+
 /* ====================== */
 
 /* =====Media=====*/
@@ -284,6 +284,7 @@ h3 {
     .container {
         max-width: 970px;
     }
+
     .aboutUs img {
         width: 876px;
         height: 639px;
@@ -292,6 +293,7 @@ h3 {
     .blockAboutUsInfo {
         margin-top: 20px;
     }
+
     .blockAboutProductInfo img {
         margin-top: 80px;
         width: 475px;
@@ -302,6 +304,7 @@ h3 {
         width: 447px;
     }
 }
+
 /* ========== */
 
 /* 992px */
@@ -317,6 +320,7 @@ h3 {
     .widthAfterHeader {
         width: 447px;
     }
+
     /* ====AboutUs==== */
     .aboutUs img {
         margin-top: 40px;
@@ -329,6 +333,7 @@ h3 {
         margin-left: 20px;
         margin-top: 0px;
     }
+
     /* ============== */
 
     /* ====aboutProduct====  */
@@ -345,9 +350,11 @@ h3 {
         width: 375px;
         height: 353px;
     }
+
     .logoBrand {
         gap: 40px;
     }
+
     /* ============== */
 }
 
@@ -366,13 +373,20 @@ h3 {
         padding: 10px 0;
     }
 
+    /* ====AfterHeader==== */
     .afterHeaderBlock {
         align-items: center;
+        padding: 0 10px;
     }
 
     .widthAfterHeader {
+        width: 50%;
     }
 
+    .product {
+        font-size: 90px;
+        line-height: 136px;
+    }
     /* ================= */
 
     /* ====AboutUs==== */
@@ -383,11 +397,12 @@ h3 {
         padding: 50px 0;
     }
 
-    .blockAboutUsInfo {                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+    .blockAboutUsInfo {
         margin: 0;
         width: 80%;
         align-items: center;
     }
+
     .blockAboutUsInfo p:last-child {
         width: 100%;
     }
@@ -399,27 +414,32 @@ h3 {
         width: 80%;
         height: 80%;
     }
+
     /* ==============*/
 
     /* =======aboutProduct====== */
-    .aboutProduct{
+    .aboutProduct {
         padding: 50px 0;
     }
+
     .blockAboutProductInfo {
         flex-direction: column;
         align-items: center;
     }
-    .productText{
+
+    .productText {
         margin: 0;
         width: 80%;
     }
+
     .blockAboutProductInfo img {
         /* margin-top: 80px; */
         width: 80%;
         height: 80%;
     }
+
     /* ============ */
-    
+
     /* ====aboutProduct==== */
     .logoBrand {
         margin-top: 40px;
@@ -427,15 +447,48 @@ h3 {
         justify-content: center;
         align-items: center;
     }
+
     /* =====================*/
 
     /* =====aboutGlasses===== */
     .aboutGlassesInfo {
         width: 80%;
     }
+
     /* =====================*/
 }
 
+@media (max-width:647px) {
+    .widthAfterHeader {
+        }
+
+    .product {
+        font-size: 76px;
+        line-height: 136px;
+    }
+}   
+
+@media (max-width:587px) {
+    .widthAfterHeader {
+        width: 60%;
+    }
+}   
+
+@media (max-width:471px) {
+    .widthAfterHeader {
+        width: 70%; 
+    }
+}   
+@media (max-width:403px) {
+    .widthAfterHeader {
+        width: 80%; 
+    }
+}   
+@media (max-width:363px) {
+    .widthAfterHeader {
+        width: 90%; 
+    }
+}   
 /* @media (max-width:420px) {
     .container {
         max-width: ;
