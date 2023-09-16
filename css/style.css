@@ -402,7 +402,10 @@ h3 {
         width: 80%;
         align-items: center;
     }
-
+    
+    .blockAboutUsInfo br{
+        display: none;
+    }
     .blockAboutUsInfo p:last-child {
         width: 100%;
     }
@@ -468,6 +471,9 @@ h3 {
     }
 }   
 
+/* @media (max-width:518px) {
+   
+}    */
 @media (max-width:587px) {
     .widthAfterHeader {
         width: 60%;
