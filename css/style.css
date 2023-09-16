@@ -1,0 +1,449 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.backroundWhite {
+    background: #EFF1ED;
+}
+
+/* =====HEADER===== */
+header {
+    min-height: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Inter;
+}
+
+.navigationList {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.headerNav {
+    color: #505A5B;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.headerNav:hover {
+    transition: .3s;
+    color: #D36060;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #505A5B;
+    color: #E8EBE4;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: .3s;
+    background: #6d7b7b;
+    color: #E8EBE4;
+}
+
+.headerBtn {
+    width: 235px;
+    height: 61px;
+}
+
+/* ================ */
+
+/* =====AFTERHEADER===== */
+.afterHeader {
+    background-image: url(/img/headerBackground.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.afterHeaderBlock {
+    min-height: 931px;
+    padding-top: 160.99px;
+    display: flex;
+    justify-content: end;
+}
+
+.widthAfterHeader {
+    width: 507px;
+}
+
+.product {
+    height: 313.224px;
+    color: #EFF1ED;
+    font-variant-numeric: ordinal;
+    font-family: Playfair Display;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 156px;
+    letter-spacing: 2.4px;
+}
+
+.productMotto {
+    height: 104.408px;
+    color: #EFF1ED;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 52px;
+}
+/* ===================== */
+
+/* =====ABOUTUS===== */
+.aboutUs {
+    display: flex;
+    min-height: 1015px;
+    padding-top: 156px;
+    padding-bottom: 120px;
+    color: #505A5B;
+}
+
+.aboutUs img {
+    width: 476px;
+    height: 739px;
+    border-radius: 20px;
+}
+
+.blockAboutUsInfo {
+    width: 476px;
+    margin-left: 119px;
+    margin-top: 71px;
+}
+
+.blockAboutUsInfo p:first-child {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.blockAboutUsInfo h2 {
+    margin-top: 16px;
+    font-family: Playfair Display;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 72.8px;
+}
+
+.blockAboutUsInfo p:last-child {
+    width: 476px;
+    margin-top: 32px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+/* ===================== */
+
+
+/* =======aboutProduct====== */
+
+.backround {
+    background: #505A5B;
+}
+
+.aboutProduct {
+    min-height: 979px;
+    color: #EFF1ED;
+    padding: 80px 0;
+}
+
+.blockAboutProductInfo {
+    display: flex;
+    justify-content: center;
+}
+
+.productText {
+    margin-right: 119px;
+}
+
+.productText p:first-child {
+    margin-top: 64px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.productText h2 {
+    margin-top: 16px;
+    font-family: Playfair Display;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 72.8px;
+}
+
+.productText p:last-child {
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.blockAboutProductInfo img {
+    width: 575px;
+    height: 553px;
+    border-radius: 20px;
+}
+
+h3 {
+    margin-top: 115px;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 41.6px;
+}
+
+.logoBrand {
+    margin-top: 40px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+/* ====================== */
+
+
+/* ========aboutGlasses====== */
+.aboutGlasses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1156px;
+    padding: 120px 0;
+    color: #505A5B;
+}
+
+.imgGlasses img {
+    width: 100%;
+}
+
+.aboutGlassesInfo {
+    width: 576px;
+    margin-top: 69px;
+}
+
+.aboutGlassesInfo p:first-child {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.aboutGlassesInfo h2 {
+    margin-top: 16px;
+    font-family: Playfair Display;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 72.8px;
+}
+
+.aboutGlassesInfo p:last-of-type {
+    margin-top: 32px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.btnAboutGlasses {
+    margin-top: 40px;
+    width: 270px;
+    height: 61px;
+}
+/* ====================== */
+
+/* =====Media=====*/
+
+/* 1200px */
+@media (max-width:1200px) {
+    .container {
+        max-width: 970px;
+    }
+    .aboutUs img {
+        width: 876px;
+        height: 639px;
+    }
+
+    .blockAboutUsInfo {
+        margin-top: 20px;
+    }
+    .blockAboutProductInfo img {
+        margin-top: 80px;
+        width: 475px;
+        height: 453px;
+    }
+
+    .widthAfterHeader {
+        width: 447px;
+    }
+}
+/* ========== */
+
+/* 992px */
+@media (max-width:992px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .navigationList {
+        gap: 15px;
+    }
+
+    .widthAfterHeader {
+        width: 447px;
+    }
+    /* ====AboutUs==== */
+    .aboutUs img {
+        margin-top: 40px;
+        width: 306px;
+        height: 539px;
+    }
+
+    .blockAboutUsInfo {
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    /* ============== */
+
+    /* ====aboutProduct====  */
+    .productText {
+        margin-right: 20px;
+    }
+
+    .productText p:first-child {
+        margin-top: 0px;
+    }
+
+    .blockAboutProductInfo img {
+        margin-top: 80px;
+        width: 375px;
+        height: 353px;
+    }
+    .logoBrand {
+        gap: 40px;
+    }
+    /* ============== */
+}
+
+/* =============== */
+
+/* 768px */
+@media (max-width:768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .navigationList {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 0;
+    }
+
+    .afterHeaderBlock {
+        align-items: center;
+    }
+
+    .widthAfterHeader {
+    }
+
+    /* ================= */
+
+    /* ====AboutUs==== */
+    .aboutUs {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .blockAboutUsInfo {                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+        margin: 0;
+        width: 80%;
+        align-items: center;
+    }
+    .blockAboutUsInfo p:last-child {
+        width: 100%;
+    }
+
+    .aboutUs img {
+        margin: 0;
+        margin-top: 50px;
+        order: 1;
+        width: 80%;
+        height: 80%;
+    }
+    /* ==============*/
+
+    /* =======aboutProduct====== */
+    .aboutProduct{
+        padding: 50px 0;
+    }
+    .blockAboutProductInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .productText{
+        margin: 0;
+        width: 80%;
+    }
+    .blockAboutProductInfo img {
+        /* margin-top: 80px; */
+        width: 80%;
+        height: 80%;
+    }
+    /* ============ */
+    
+    /* ====aboutProduct==== */
+    .logoBrand {
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    /* =====================*/
+
+    /* =====aboutGlasses===== */
+    .aboutGlassesInfo {
+        width: 80%;
+    }
+    /* =====================*/
+}
+
+/* @media (max-width:420px) {
+    .container {
+        max-width: ;
+    }
+}   
+@media (max-width:320px) {
+    .container {
+        max-width:;
+    }
+}    */
